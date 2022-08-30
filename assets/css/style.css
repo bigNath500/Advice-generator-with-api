@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.advice_container {
+    height: 100vh !important;
+    background-color: #202632;
+}
+
+.advice_container .shadow {
+    border-radius: 10px;
+    background-color: #313A49;
+}
+
+.text-success {
+    color: #53FFAB !important;
+    font-weight: 600;
+}
+
+.text-light {
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    opacity: 0.8;
+}
+
+.btn-success {
+    transform: translateX(-50%);
+    left: 50%;
+    margin-bottom: 0px !important;
+    background-color: #53FFAB;
+    border-color: #53FFAB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.quote {
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -1950%;
+    border-radius: 0% !important;
+}
+
+.btn-success:hover {
+    box-shadow: 0px 0px 30px 0px #53FFAB;
+    background-color: #53FFAB !important;
+}
+
+.btn-success:focus {
+    box-shadow: 0px 0px 30px 0px #53FFAB;
+    background-color: #53FFAB;
+}
+
+.btn-success:active {
+    box-shadow: 0px 0px 30px 0px #53FFAB;
+    background-color: #53FFAB !important;
+}
+
+.advice_container > div {
+    width: 30% !important;
+}
+
+.bg-dark {
+    background-color: #313A49 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .advice_container > div {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .advice_container > div {
+        width: 90% !important;
+    }
+}

@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<!-- bootstrap compiled css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  Advice #<!-- Advice ID goes here -->
+		<!-- custome css -->
+		<link rel="stylesheet" href="assets/css/style.css">
 
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<!-- font awsome css link -->
+		<link rel="stylesheet" href="assets/icons/css/all.min.css">
+		
+		<title>Frontend Mentor | Advice generator app</title>
+	</head>
+
+	<body>
+		<div class="h-100 w-100 d-flex justify-content-center align-items-center advice_container">
+			<div>
+				<div class="shadow p-4 w-100 position-relative">
+					<div class="text-success text-center text-uppercase small" id="adviceId">
+						
+					</div>
+
+					<div class="mt-4 text-light mb-4 text-center" id="adviceEl">
+					</div>
+
+					<div class="mt-5 mb-5 position-relative">
+						<hr class="bg-light">
+
+						<div class="bg-dark p-2 text-white position-absolute quote">
+							<i class="fa fa-quote-left" aria-hidden="true"></i>
+						</div>
+					</div>
+
+					<button class="btn btn-success position-absolute text-dark" id="shufleBtn">
+						<i class="fa fa-random" aria-hidden="true"></i>
+					</button>
+				</div>
+		
+				<div class="attribution text-muted small text-center mt-5">
+					Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-success text-decoration-none" target="_blank">Frontend Mentor</a>. 
+					Coded by <a href="https://github.com/bigNath500" class="text-success text-decoration-none">Nathaniel</a>.
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/app.js"></script>
+		<script src="assets/icons/js/all.min.js"></script>
+	</body>
 </html>
